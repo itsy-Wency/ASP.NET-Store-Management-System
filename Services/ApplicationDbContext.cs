@@ -7,6 +7,8 @@ namespace BestStoreMVC.Services
         public ApplicationDbContext(DbContextOptions options) : base(options) {
         }
      
+        public DbSet<BestStoreMVC.Models.Product> Products { get; set; }
     }
 }
 
+ 
